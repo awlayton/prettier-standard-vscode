@@ -1,5 +1,5 @@
 const prettierStandard = require('prettier-standard')
-const { workspace, window, Range, TextEdit } = require('vscode')
+const { workspace, window, Range, TextEdit } = require('coc.nvim')
 
 const { getPrettierParser } = require('./language-map')
 

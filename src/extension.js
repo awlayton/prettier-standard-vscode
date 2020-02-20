@@ -1,4 +1,4 @@
-const { languages } = require('vscode')
+const { languages } = require('coc.nvim')
 
 const EditProvider = require('./edit-provider')
 const { supportedLanguageIds } = require('./language-map')

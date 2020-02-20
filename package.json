@@ -1,5 +1,5 @@
 {
-  "name": "prettier-standard-vscode",
+  "name": "prettier-standard-coc",
   "displayName": "Prettier-Standard - JavaScript formatter",
   "description": "VS Code plugin for prettier + standard",
   "version": "0.6.0",
@@ -19,7 +19,7 @@
     "url": "https://github.com/numso/prettier-standard-vscode/issues"
   },
   "engines": {
-    "vscode": "^1.35.0"
+    "coc": ">= 0.0.30"
   },
   "categories": [
     "Formatters"
@@ -44,11 +44,8 @@
     "onLanguage:angular"
   ],
   "main": "./src/extension",
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
   "devDependencies": {
-    "vscode": "^1.1.36"
+    "coc.nvim": "^0.0.74"
   },
   "dependencies": {
     "prettier-standard": "16.1.0"
